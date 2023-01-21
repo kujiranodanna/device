@@ -1,3 +1,14 @@
+2023.1.21 kujiranodanna added, IRKit service termination measures.
+
+## Permanent operation of IRKit without a server
+
+When infrared signal (IR) is received, the LED flashes green-->red-->blue-->turns off.
+It seems that the software of Wifi is reset by IR reception.
+In this state, the IR signal cannot be learned, and it is dedicated to IR transmission.
+By rewriting this new firmware, IR transmission and reception can be operated permanently without a server.<br>
+https://github.com/kujiranodanna/device/commit/5548c43cf34ac5ed9b181c0cb9f46e40ca54e904
+
+
 IRKit Device
 ===
 
