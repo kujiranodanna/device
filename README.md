@@ -8,6 +8,9 @@ In this state, the IR signal cannot be learned, and it is dedicated to IR transm
 By rewriting this new firmware, IR transmission and reception can be operated permanently without a server.<br>
 https://github.com/kujiranodanna/device/commit/5548c43cf34ac5ed9b181c0cb9f46e40ca54e904
 
+[Learning-infrared-remote-control](https://kujiranodanna.github.io/tags/Learning-infrared-remote-control/)
+<img src="https://kujiranodanna.github.io/images/irkit_rasp_en.png" />
+<br>
 
 IRKit Device
 ===
